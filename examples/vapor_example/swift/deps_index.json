@@ -254,6 +254,17 @@
       ]
     },
     {
+      "name": "BitCollections",
+      "c99name": "BitCollections",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:BitCollections.rspm",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "BitCollections",
+        "Collections"
+      ]
+    },
+    {
       "name": "Collections",
       "c99name": "Collections",
       "src_type": "swift",
@@ -270,8 +281,30 @@
       "label": "@swiftpkg_swift_collections//:DequeModule.rspm",
       "package_identity": "swift-collections",
       "product_memberships": [
-        "Collections",
-        "DequeModule"
+        "DequeModule",
+        "Collections"
+      ]
+    },
+    {
+      "name": "HashTreeCollections",
+      "c99name": "HashTreeCollections",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:HashTreeCollections.rspm",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "HashTreeCollections",
+        "Collections"
+      ]
+    },
+    {
+      "name": "HeapModule",
+      "c99name": "HeapModule",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:HeapModule.rspm",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "HeapModule",
+        "Collections"
       ]
     },
     {
@@ -281,8 +314,35 @@
       "label": "@swiftpkg_swift_collections//:OrderedCollections.rspm",
       "package_identity": "swift-collections",
       "product_memberships": [
-        "Collections",
-        "OrderedCollections"
+        "OrderedCollections",
+        "Collections"
+      ]
+    },
+    {
+      "name": "_CollectionsUtilities",
+      "c99name": "_CollectionsUtilities",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:_CollectionsUtilities.rspm",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "BitCollections",
+        "DequeModule",
+        "HashTreeCollections",
+        "HeapModule",
+        "OrderedCollections",
+        "_RopeModule",
+        "Collections"
+      ]
+    },
+    {
+      "name": "_RopeModule",
+      "c99name": "_RopeModule",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_collections//:_RopeModule.rspm",
+      "package_identity": "swift-collections",
+      "product_memberships": [
+        "_RopeModule",
+        "Collections"
       ]
     },
     {
@@ -399,7 +459,9 @@
         "NIOConcurrencyHelpers",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -418,7 +480,9 @@
         "NIOHTTP1",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -449,7 +513,9 @@
         "NIOHTTP1",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -478,7 +544,9 @@
         "NIOHTTP1",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -514,7 +582,9 @@
         "NIOConcurrencyHelpers",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -533,7 +603,9 @@
         "NIOHTTP1",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -551,6 +623,16 @@
         "NIOFoundationCompat",
         "NIOWebSocket",
         "NIOTestUtils"
+      ]
+    },
+    {
+      "name": "NIOFileSystem",
+      "c99name": "NIOFileSystem",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_nio//:NIOFileSystem.rspm",
+      "package_identity": "swift-nio",
+      "product_memberships": [
+        "_NIOFileSystem"
       ]
     },
     {
@@ -589,7 +671,9 @@
         "NIOHTTP1",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -638,7 +722,9 @@
         "NIOHTTP1",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -667,7 +753,30 @@
         "NIOHTTP1",
         "NIOFoundationCompat",
         "NIOWebSocket",
-        "NIOTestUtils"
+        "NIOTestUtils",
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
+      ]
+    },
+    {
+      "name": "_NIOFileSystem",
+      "c99name": "_NIOFileSystem",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_nio//:_NIOFileSystem.rspm",
+      "package_identity": "swift-nio",
+      "product_memberships": [
+        "_NIOFileSystem",
+        "_NIOFileSystemFoundationCompat"
+      ]
+    },
+    {
+      "name": "_NIOFileSystemFoundationCompat",
+      "c99name": "_NIOFileSystemFoundationCompat",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_nio//:_NIOFileSystemFoundationCompat.rspm",
+      "package_identity": "swift-nio",
+      "product_memberships": [
+        "_NIOFileSystemFoundationCompat"
       ]
     },
     {
@@ -842,6 +951,26 @@
       ]
     },
     {
+      "name": "CSystem",
+      "c99name": "CSystem",
+      "src_type": "clang",
+      "label": "@swiftpkg_swift_system//:CSystem.rspm",
+      "package_identity": "swift-system",
+      "product_memberships": [
+        "SystemPackage"
+      ]
+    },
+    {
+      "name": "SystemPackage",
+      "c99name": "SystemPackage",
+      "src_type": "swift",
+      "label": "@swiftpkg_swift_system//:SystemPackage.rspm",
+      "package_identity": "swift-system",
+      "product_memberships": [
+        "SystemPackage"
+      ]
+    },
+    {
       "name": "CVaporBcrypt",
       "c99name": "CVaporBcrypt",
       "src_type": "clang",
@@ -1007,6 +1136,12 @@
     },
     {
       "identity": "swift-collections",
+      "name": "BitCollections",
+      "type": "library",
+      "label": "@swiftpkg_swift_collections//:BitCollections"
+    },
+    {
+      "identity": "swift-collections",
       "name": "Collections",
       "type": "library",
       "label": "@swiftpkg_swift_collections//:Collections"
@@ -1019,9 +1154,27 @@
     },
     {
       "identity": "swift-collections",
+      "name": "HashTreeCollections",
+      "type": "library",
+      "label": "@swiftpkg_swift_collections//:HashTreeCollections"
+    },
+    {
+      "identity": "swift-collections",
+      "name": "HeapModule",
+      "type": "library",
+      "label": "@swiftpkg_swift_collections//:HeapModule"
+    },
+    {
+      "identity": "swift-collections",
       "name": "OrderedCollections",
       "type": "library",
       "label": "@swiftpkg_swift_collections//:OrderedCollections"
+    },
+    {
+      "identity": "swift-collections",
+      "name": "_RopeModule",
+      "type": "library",
+      "label": "@swiftpkg_swift_collections//:_RopeModule"
     },
     {
       "identity": "swift-crypto",
@@ -1174,6 +1327,18 @@
       "label": "@swiftpkg_swift_nio//:_NIOConcurrency"
     },
     {
+      "identity": "swift-nio",
+      "name": "_NIOFileSystem",
+      "type": "library",
+      "label": "@swiftpkg_swift_nio//:_NIOFileSystem"
+    },
+    {
+      "identity": "swift-nio",
+      "name": "_NIOFileSystemFoundationCompat",
+      "type": "library",
+      "label": "@swiftpkg_swift_nio//:_NIOFileSystemFoundationCompat"
+    },
+    {
       "identity": "swift-numerics",
       "name": "ComplexModule",
       "type": "library",
@@ -1190,6 +1355,12 @@
       "name": "RealModule",
       "type": "library",
       "label": "@swiftpkg_swift_numerics//:RealModule"
+    },
+    {
+      "identity": "swift-system",
+      "name": "SystemPackage",
+      "type": "library",
+      "label": "@swiftpkg_swift_system//:SystemPackage"
     },
     {
       "identity": "vapor",
@@ -1224,9 +1395,9 @@
       "name": "swiftpkg_async_kit",
       "identity": "async-kit",
       "remote": {
-        "commit": "eab9edff78e8ace20bd7cb6e792ab46d54f59ab9",
+        "commit": "7ece208cd401687641c88367a00e3ea2b04311f1",
         "remote": "https://github.com/vapor/async-kit.git",
-        "version": "1.18.0"
+        "version": "1.19.0"
       }
     },
     {
@@ -1251,18 +1422,18 @@
       "name": "swiftpkg_fluent_kit",
       "identity": "fluent-kit",
       "remote": {
-        "commit": "e0bb2b060249b7a501249b1612807b2eaaec28c6",
+        "commit": "d69efce21242ad4dba6935cc1b8d5637281604d5",
         "remote": "https://github.com/vapor/fluent-kit.git",
-        "version": "1.45.0"
+        "version": "1.48.5"
       }
     },
     {
       "name": "swiftpkg_fluent_sqlite_driver",
       "identity": "fluent-sqlite-driver",
       "remote": {
-        "commit": "d76674f9ec744c773c4126384abe6e74bea68bab",
+        "commit": "40303a20bc39c270c8e50339ada30f9750e2a681",
         "remote": "https://github.com/vapor/fluent-sqlite-driver.git",
-        "version": "4.6.0"
+        "version": "4.7.3"
       }
     },
     {
@@ -1287,36 +1458,36 @@
       "name": "swiftpkg_sql_kit",
       "identity": "sql-kit",
       "remote": {
-        "commit": "b2f128cb62a3abfbb1e3b2893ff3ee69e70f4f0f",
+        "commit": "25d8170c31173c7db4ddfef473e257c3bde60783",
         "remote": "https://github.com/vapor/sql-kit.git",
-        "version": "3.28.0"
+        "version": "3.30.0"
       }
     },
     {
       "name": "swiftpkg_sqlite_kit",
       "identity": "sqlite-kit",
       "remote": {
-        "commit": "b4766692f2b3e26e4809aeb9f298c9811fdfe4ed",
+        "commit": "f35a863ecc2da5d563b836a9a696b148b0f4169f",
         "remote": "https://github.com/vapor/sqlite-kit.git",
-        "version": "4.4.1"
+        "version": "4.5.2"
       }
     },
     {
       "name": "swiftpkg_sqlite_nio",
       "identity": "sqlite-nio",
       "remote": {
-        "commit": "f46b6db58333b1dbff012c9030b8dcd455c2f645",
+        "commit": "1b03dafcd8b86047650925325a2bd4d20f6205fd",
         "remote": "https://github.com/vapor/sqlite-nio.git",
-        "version": "1.8.1"
+        "version": "1.10.1"
       }
     },
     {
       "name": "swiftpkg_swift_algorithms",
       "identity": "swift-algorithms",
       "remote": {
-        "commit": "b14b7f4c528c942f121c8b860b9410b2bf57825e",
+        "commit": "f6919dfc309e7f1b56224378b11e28bab5bccc42",
         "remote": "https://github.com/apple/swift-algorithms.git",
-        "version": "1.0.0"
+        "version": "1.2.0"
       }
     },
     {
@@ -1341,9 +1512,9 @@
       "name": "swiftpkg_swift_collections",
       "identity": "swift-collections",
       "remote": {
-        "commit": "937e904258d22af6e447a0b72c0bc67583ef64a2",
+        "commit": "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
         "remote": "https://github.com/apple/swift-collections.git",
-        "version": "1.0.4"
+        "version": "1.1.0"
       }
     },
     {
@@ -1360,9 +1531,9 @@
       "name": "swiftpkg_swift_log",
       "identity": "swift-log",
       "remote": {
-        "commit": "532d8b529501fb73a2455b179e0bbb6d49b652ed",
+        "commit": "e97a6fcb1ab07462881ac165fdbb37f067e205d5",
         "remote": "https://github.com/apple/swift-log.git",
-        "version": "1.5.3"
+        "version": "1.5.4"
       }
     },
     {
@@ -1378,9 +1549,9 @@
       "name": "swiftpkg_swift_nio",
       "identity": "swift-nio",
       "remote": {
-        "commit": "702cd7c56d5d44eeba73fdf83918339b26dc855c",
+        "commit": "359c461e5561d22c6334828806cc25d759ca7aa6",
         "remote": "https://github.com/apple/swift-nio.git",
-        "version": "2.62.0"
+        "version": "2.65.0"
       }
     },
     {
@@ -1427,6 +1598,15 @@
         "commit": "0a5bc04095a675662cf24757cc0640aa2204253b",
         "remote": "https://github.com/apple/swift-numerics",
         "version": "1.0.2"
+      }
+    },
+    {
+      "name": "swiftpkg_swift_system",
+      "identity": "swift-system",
+      "remote": {
+        "commit": "f9266c85189c2751589a50ea5aec72799797e471",
+        "remote": "https://github.com/apple/swift-system.git",
+        "version": "1.3.0"
       }
     },
     {

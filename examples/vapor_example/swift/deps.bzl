@@ -12,7 +12,7 @@ def swift_dependencies():
     # version: 1.18.0
     swift_package(
         name = "swiftpkg_async_kit",
-        commit = "eab9edff78e8ace20bd7cb6e792ab46d54f59ab9",
+        commit = "7ece208cd401687641c88367a00e3ea2b04311f1",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/vapor/async-kit.git",
     )
@@ -36,7 +36,7 @@ def swift_dependencies():
     # version: 1.44.1
     swift_package(
         name = "swiftpkg_fluent_kit",
-        commit = "e0bb2b060249b7a501249b1612807b2eaaec28c6",
+        commit = "d69efce21242ad4dba6935cc1b8d5637281604d5",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/vapor/fluent-kit.git",
     )
@@ -44,7 +44,7 @@ def swift_dependencies():
     # version: 4.5.0
     swift_package(
         name = "swiftpkg_fluent_sqlite_driver",
-        commit = "d76674f9ec744c773c4126384abe6e74bea68bab",
+        commit = "40303a20bc39c270c8e50339ada30f9750e2a681",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/vapor/fluent-sqlite-driver.git",
     )
@@ -68,7 +68,7 @@ def swift_dependencies():
     # version: 3.28.0
     swift_package(
         name = "swiftpkg_sql_kit",
-        commit = "b2f128cb62a3abfbb1e3b2893ff3ee69e70f4f0f",
+        commit = "25d8170c31173c7db4ddfef473e257c3bde60783",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/vapor/sql-kit.git",
     )
@@ -76,7 +76,7 @@ def swift_dependencies():
     # version: 4.3.1
     swift_package(
         name = "swiftpkg_sqlite_kit",
-        commit = "b4766692f2b3e26e4809aeb9f298c9811fdfe4ed",
+        commit = "f35a863ecc2da5d563b836a9a696b148b0f4169f",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/vapor/sqlite-kit.git",
     )
@@ -84,7 +84,7 @@ def swift_dependencies():
     # version: 1.3.0
     swift_package(
         name = "swiftpkg_sqlite_nio",
-        commit = "f46b6db58333b1dbff012c9030b8dcd455c2f645",
+        commit = "1b03dafcd8b86047650925325a2bd4d20f6205fd",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/vapor/sqlite-nio.git",
     )
@@ -92,7 +92,7 @@ def swift_dependencies():
     # version: 1.0.0
     swift_package(
         name = "swiftpkg_swift_algorithms",
-        commit = "b14b7f4c528c942f121c8b860b9410b2bf57825e",
+        commit = "f6919dfc309e7f1b56224378b11e28bab5bccc42",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/apple/swift-algorithms.git",
     )
@@ -116,7 +116,7 @@ def swift_dependencies():
     # version: 1.0.4
     swift_package(
         name = "swiftpkg_swift_collections",
-        commit = "937e904258d22af6e447a0b72c0bc67583ef64a2",
+        commit = "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/apple/swift-collections.git",
     )
@@ -132,7 +132,7 @@ def swift_dependencies():
     # version: 1.5.3
     swift_package(
         name = "swiftpkg_swift_log",
-        commit = "532d8b529501fb73a2455b179e0bbb6d49b652ed",
+        commit = "e97a6fcb1ab07462881ac165fdbb37f067e205d5",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/apple/swift-log.git",
     )
@@ -148,7 +148,7 @@ def swift_dependencies():
     # version: 2.58.0
     swift_package(
         name = "swiftpkg_swift_nio",
-        commit = "702cd7c56d5d44eeba73fdf83918339b26dc855c",
+        commit = "359c461e5561d22c6334828806cc25d759ca7aa6",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/apple/swift-nio.git",
     )
@@ -191,6 +191,14 @@ def swift_dependencies():
         commit = "0a5bc04095a675662cf24757cc0640aa2204253b",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/apple/swift-numerics",
+    )
+
+    # version: 1.3.0
+    swift_package(
+        name = "swiftpkg_swift_system",
+        commit = "f9266c85189c2751589a50ea5aec72799797e471",
+        dependencies_index = "@//swift:deps_index.json",
+        remote = "https://github.com/apple/swift-system.git",
     )
 
     # version: 4.81.0
