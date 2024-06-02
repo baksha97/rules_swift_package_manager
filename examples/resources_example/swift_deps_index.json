@@ -424,9 +424,9 @@
       "name": "swiftpkg_recaptcha_enterprise_mobile_sdk",
       "identity": "recaptcha-enterprise-mobile-sdk",
       "remote": {
-        "commit": "54f4584f85144cac8288210da556a10b32067081",
+        "commit": "742de2369422c0e5395205b9215b6b7228dc206a",
         "remote": "https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk",
-        "version": "18.4.2"
+        "version": "18.5.1"
       }
     },
     {
