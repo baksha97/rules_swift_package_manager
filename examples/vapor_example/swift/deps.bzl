@@ -148,7 +148,7 @@ def swift_dependencies():
     # version: 2.58.0
     swift_package(
         name = "swiftpkg_swift_nio",
-        commit = "702cd7c56d5d44eeba73fdf83918339b26dc855c",
+        commit = "9428f62793696d9a0cc1f26a63f63bb31da0516d",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/apple/swift-nio.git",
     )
@@ -193,10 +193,18 @@ def swift_dependencies():
         remote = "https://github.com/apple/swift-numerics",
     )
 
+    # version: 1.3.0
+    swift_package(
+        name = "swiftpkg_swift_system",
+        commit = "f9266c85189c2751589a50ea5aec72799797e471",
+        dependencies_index = "@//swift:deps_index.json",
+        remote = "https://github.com/apple/swift-system.git",
+    )
+
     # version: 4.81.0
     swift_package(
         name = "swiftpkg_vapor",
-        commit = "0311f9a7eadf5117808c50dd2c7d3cfd6b95d064",
+        commit = "a46552bf135ebc4a0a4768a1ee2c7258fff32616",
         dependencies_index = "@//swift:deps_index.json",
         remote = "https://github.com/vapor/vapor.git",
     )
